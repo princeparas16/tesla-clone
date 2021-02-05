@@ -1,29 +1,36 @@
 .header{
     display: flex;
+    justify-content: space-evenly;
     background-color: transparent;
     background: none;
     position: fixed;
     width: 100vw;
     top: 0;
     margin: 15px;
-    margin-top: 15px;
+    margin-top: 8px;
     z-index: 100;
 }
 
 .header__logo{
     height: 24px;
     width: 100px;
-    margin-top: 7px;
+    margin-top: 10px;
+}
+.header__logo>img{
+    height: 15px;
+    width:100px;
 }
 
 .header__center{
     flex: 1;
     display: flex;
     justify-content: center;
+    margin-left: 100px;
 }
 
 .header__center>p{
-    margin: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
     text-transform: uppercase;
 }
 
@@ -34,5 +41,7 @@
 }
 
 .header__right>p{
-    margin: 10px;
+    /* margin: 10px; */
+    margin-right: 30px;
+    margin-top: 10px;
 }
